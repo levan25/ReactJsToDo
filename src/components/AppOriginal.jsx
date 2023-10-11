@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./AppOriginal.css";
 import { useState } from "react";
-import Another from "./Another";
+import Another from "../Another";
 function App() {
   const [count, setCount] = useState(0);
   function decrement() {
@@ -19,7 +18,6 @@ function App() {
           <button onClick={decrement}>-</button>
           <button onClick={increment}>+</button>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
